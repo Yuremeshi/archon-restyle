@@ -1,0 +1,13 @@
+{
+    "name": "Templar",
+    "description": "Extension to revert archon.gg to a look more similar to subcreation.",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://*.archon.gg/*"],
+            "js": ["templar.js"],
+            "css": ["templar.css"]
+        }
+    ]
+}
