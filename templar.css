@@ -1,17 +1,17 @@
 .builds-tier-list-section__spec-value-and-label {
-    display: none;
+    display: none !important;
 }
 
 .hide-on-compact {
-  display: none;
+    display: none !important;
 }
 
 .hide-on-compact.heading {
-  display: flex;
+    display: flex !important;
 }
 
 .builds-tier-list-section__spec-contents {
-    padding: 0px;
+    padding: 0px !important;
 }
 
 .react-table__wrapper {
@@ -19,9 +19,9 @@
 }
 
 .builds-page__content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
 }
 
 .builds-page__content > section {
@@ -32,8 +32,8 @@
 }
 
 .no-top-margin-on-compact {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .builds-page__content > section:nth-child(2), .builds-page__content > section:nth-child(4), .builds-page__content > section:nth-child(6) {
